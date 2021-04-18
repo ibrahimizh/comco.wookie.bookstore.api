@@ -29,5 +29,13 @@ namespace comco.wookie.bookstore.api.Controllers
             var result = await _mediator.Send(query);
             return Ok(result);
         }
+
+        [HttpGet("{id}")]
+        public async Task<IActionResult> Get(Guid id)
+        {
+            var query = new GetBookByIdQuery(id);
+            var result = await _mediator.Send(query);
+            return result != null ? (IActionResult) Ok(result) : NotFound();
+        }
     }
 }
