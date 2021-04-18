@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using comco.wookie.bookstore.api.Repositories;
 using MediatR;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -32,6 +33,7 @@ namespace comco.wookie.bookstore.api
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "comco.wookie.bookstore.api", Version = "v1" });
             });
+            services.AddSingleton<IBooksRepository,BooksRepository>();
             services.AddMediatR(typeof(Startup));
         }
 
