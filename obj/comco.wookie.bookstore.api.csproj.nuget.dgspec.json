@@ -1,0 +1,69 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/ibrahim/Projects/Comco.Wookie.Bookstore.API/comco.wookie.bookstore.api/comco.wookie.bookstore.api.csproj": {}
+  },
+  "projects": {
+    "/home/ibrahim/Projects/Comco.Wookie.Bookstore.API/comco.wookie.bookstore.api/comco.wookie.bookstore.api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/ibrahim/Projects/Comco.Wookie.Bookstore.API/comco.wookie.bookstore.api/comco.wookie.bookstore.api.csproj",
+        "projectName": "comco.wookie.bookstore.api",
+        "projectPath": "/home/ibrahim/Projects/Comco.Wookie.Bookstore.API/comco.wookie.bookstore.api/comco.wookie.bookstore.api.csproj",
+        "packagesPath": "/home/ibrahim/.nuget/packages/",
+        "outputPath": "/home/ibrahim/Projects/Comco.Wookie.Bookstore.API/comco.wookie.bookstore.api/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/ibrahim/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.202/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
