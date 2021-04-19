@@ -32,3 +32,5 @@
 /home/ibrahim/Projects/Comco.Wookie.Bookstore.API/comco.wookie.bookstore.api/bin/Debug/net5.0/AutoMapper.dll
 /home/ibrahim/Projects/Comco.Wookie.Bookstore.API/comco.wookie.bookstore.api/bin/Debug/net5.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 /home/ibrahim/Projects/Comco.Wookie.Bookstore.API/comco.wookie.bookstore.api/bin/Debug/net5.0/Models/SampleData.json
+/home/ibrahim/Projects/Comco.Wookie.Bookstore.API/comco.wookie.bookstore.api/bin/Debug/net5.0/Comco Wookie Bookstore API Collection.postman_collection.json
+/home/ibrahim/Projects/Comco.Wookie.Bookstore.API/comco.wookie.bookstore.api/bin/Debug/net5.0/Newtonsoft.Json.dll

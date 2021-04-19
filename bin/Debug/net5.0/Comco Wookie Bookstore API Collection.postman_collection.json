@@ -1,0 +1,130 @@
+{
+	"info": {
+		"_postman_id": "c57fa30b-d471-4449-9014-67d31720959a",
+		"name": "Comco Wookie Bookstore API Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get All Books",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/Book",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"Book"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Book By Id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/Book/5210c496-61f7-407c-92ba-820850322584",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"Book",
+						"5210c496-61f7-407c-92ba-820850322584"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add new Book",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"title\": \"Implementing Azure DevOps Solutions: Learn about Azure DevOps Services to successfully apply DevOps strategies\",\n            \"description\": \"A comprehensive guide to becoming a skilled Azure DevOps engineer. Key Features:*Explore a step-by-step approach to designing and creating a successful DevOps environment *Understand how to implement continuous integration and continuous deployment pipelines on Azure\",\n            \"author\": \"Henry Been\",\n            \"coverImage\": \"https://images-na.ssl-images-amazon.com/images/I/51sQbHIXPUL._SX404_BO1,204,203,200_.jpg\",\n            \"price\": 58.99\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/Book",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"Book"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update book",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"id\": \"5210c496-61f7-407c-92ba-820850322584\",\n        \"title\": \"Clean Architecture: A Craftsman's Guide to Software Structure and Design\",\n        \"description\": \"Building upon the success of best-sellers The Clean Coder and Clean Code, legendary software craftsman Robert C. 'Uncle Bob' Martin shows how to bring greater professionalism and discipline to application architecture and design.\",\n        \"author\": \"Robert Martin\",\n        \"coverImage\": \"https://images-na.ssl-images-amazon.com/images/I/41TPrNDI50L._SX387_BO1,204,203,200_.jpg\",\n        \"price\": 37.50\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/Book",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"Book"
+					]
+				},
+				"description": "Sample : Test updating price of the Book"
+			},
+			"response": []
+		},
+		{
+			"name": "Delete a book",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/Book?id=2a713f28-a83e-482f-a5e9-56405c26c2ad",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"Book"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "2a713f28-a83e-482f-a5e9-56405c26c2ad"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

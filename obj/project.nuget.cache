@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Ejt3BIBmpNVUJdHmdew6aERvfpdpI7hO0/oz+m4wjZ+1Zo7oUEbD8CIi+Q96CNmGprMGZPbSYcRMvnjIeDCn9Q==",
+  "dgSpecHash": "tYZXLFyYEmS+Va8DPFs+sV4yN6jDfhYxiztlvhRlcEOzCiSwAJt4i/tF7tmTuvyAXY/joKBhl9745EheeCNOzA==",
   "success": true,
   "projectFilePath": "/home/ibrahim/Projects/Comco.Wookie.Bookstore.API/comco.wookie.bookstore.api/comco.wookie.bookstore.api.csproj",
   "expectedPackageFiles": [
@@ -14,6 +14,7 @@
     "/home/ibrahim/.nuget/packages/microsoft.extensions.options/3.0.0/microsoft.extensions.options.3.0.0.nupkg.sha512",
     "/home/ibrahim/.nuget/packages/microsoft.extensions.primitives/3.0.0/microsoft.extensions.primitives.3.0.0.nupkg.sha512",
     "/home/ibrahim/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
+    "/home/ibrahim/.nuget/packages/newtonsoft.json/13.0.1/newtonsoft.json.13.0.1.nupkg.sha512",
     "/home/ibrahim/.nuget/packages/swashbuckle.aspnetcore/5.6.3/swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
     "/home/ibrahim/.nuget/packages/swashbuckle.aspnetcore.swagger/5.6.3/swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
     "/home/ibrahim/.nuget/packages/swashbuckle.aspnetcore.swaggergen/5.6.3/swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
