@@ -10,7 +10,7 @@ namespace comco.wookie.bookstore.api.Repositories
         Task<IEnumerable<Book>> GetAsync();
         Task<Book> GetByIdAsync(Guid id);
         Task<Book> AddAsync(Book newBook);
-        Task<Book> UpdateAsync(Book updatedBook);
+        Task<Book> UpdateAsync(BookDTO updatedBook);
         Task<bool?> DeleteAsync(Guid id);
     }
 }

@@ -1,0 +1,39 @@
+{
+    "SampleData":[
+        {
+            "title": "Implementing Azure DevOps Solutions: Learn about Azure DevOps Services to successfully apply DevOps strategies",
+            "description": "A comprehensive guide to becoming a skilled Azure DevOps engineer. Key Features:*Explore a step-by-step approach to designing and creating a successful DevOps environment *Understand how to implement continuous integration and continuous deployment pipelines on Azure",
+            "author": "Henry Been",
+            "coverImage": "https://images-na.ssl-images-amazon.com/images/I/51sQbHIXPUL._SX404_BO1,204,203,200_.jpg",
+            "price": 58.99
+        },
+        {
+            "title": "Redis in Action",
+            "description": "Redis in Action introduces Redis and walks you through examples that demonstrate how to use it effectively. You'll begin by getting Redis set up properly and then exploring the key-value model. Then, you'll dive into real use cases including simple caching, distributed ad targeting, and more. You'll learn how to scale Redis from small jobs to massive datasets. Experienced developers will appreciate chapters on clustering and internal scripting to make Redis easier to use.",
+            "author": "Dr. Josiah L Carlson",
+            "coverImage": "https://images-na.ssl-images-amazon.com/images/I/41LHSlIVU4L._SX397_BO1,204,203,200_.jpg",
+            "price": 47.51
+        },
+        {
+            "title": "Docker for Developers: Develop and run your application with Docker containers using DevOps tools for continuous delivery ",
+            "description": "Learn how to deploy and test Linux-based Docker containers with the help of real-world use cases. Key Features: * Understand how to make a deployment workflow run smoothly with Docker containers * Learn Docker and DevOps concepts such as continuous integration and continuous deployment",
+            "author": "Richard Bullington-McGuire",
+            "coverImage": "https://images-na.ssl-images-amazon.com/images/I/51TsaDtDhcL._SX404_BO1,204,203,200_.jpg",
+            "price": 52.99
+        },
+        {
+            "title": "Software Architecture with C# 9 and .NET 5: Architecting software solutions using microservices, DevOps, and design patterns for Azure, 2nd Edition",
+            "description": "Design scalable and high-performance enterprise applications using the latest features of C# 9 and .NET 5. Key Features : * Gain fundamental and comprehensive software architecture knowledge and the skillset to create ",
+            "author": "Gabriel Baptista",
+            "coverImage": "https://images-na.ssl-images-amazon.com/images/I/51HkTtbRmYL._SX404_BO1,204,203,200_.jpg",
+            "price": 65.99
+        },
+        {
+            "title": "Scrum: How to Use the Agile Framework Called Scrum to Produce Faster While Increasing Quality",
+            "description": "If you want to learn about Scrum then keep reading... Are you having trouble getting products to market? Do you struggle with meeting the actual needs of your customers despite spending elaborate amounts of time planning out how you will meet the needs they outlined to you? ",
+            "author": "James Edge",
+            "coverImage": "https://images-na.ssl-images-amazon.com/images/I/41hAAkKOQIL._SX331_BO1,204,203,200_.jpg",
+            "price": 17.47
+        }
+    ]
+}

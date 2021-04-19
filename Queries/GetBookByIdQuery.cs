@@ -1,14 +1,15 @@
 using System;
-using System.Collections.Generic;
 using System.Threading;
 using System.Threading.Tasks;
+using AutoMapper;
 using comco.wookie.bookstore.api.Models;
 using comco.wookie.bookstore.api.Repositories;
 using MediatR;
 
-namespace comco.wookie.bookstore.api.Queries{
+namespace comco.wookie.bookstore.api.Queries
+{
 
-    public class GetBookByIdQuery:IRequest<Book>
+    public class GetBookByIdQuery:IRequest<BookDTO>
     {
         public Guid Id{get;}
         public GetBookByIdQuery(Guid id)
@@ -17,18 +18,20 @@ namespace comco.wookie.bookstore.api.Queries{
         }
     }
 
-    public class GetBookByIdHandler : IRequestHandler<GetBookByIdQuery, Book>
+    public class GetBookByIdHandler : IRequestHandler<GetBookByIdQuery, BookDTO>
     {
         private readonly IBooksRepository booksRepository;
+        private readonly IMapper mapper;
 
-        public GetBookByIdHandler(IBooksRepository _booksRepository)
+        public GetBookByIdHandler(IBooksRepository _booksRepository,IMapper _mapper)
         {
             booksRepository = _booksRepository;
+            mapper = _mapper;
         }
-        public async Task<Book> Handle(GetBookByIdQuery request, CancellationToken cancellationToken)
+        public async Task<BookDTO> Handle(GetBookByIdQuery request, CancellationToken cancellationToken)
         {
             var book = await booksRepository.GetByIdAsync(request.Id);
-            return book;
+            return mapper.Map<BookDTO>(book);
         }
     }
 

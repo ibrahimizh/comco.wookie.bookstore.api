@@ -7,6 +7,8 @@
 /home/ibrahim/Projects/Comco.Wookie.Bookstore.API/comco.wookie.bookstore.api/bin/Debug/net5.0/comco.wookie.bookstore.api.dll
 /home/ibrahim/Projects/Comco.Wookie.Bookstore.API/comco.wookie.bookstore.api/bin/Debug/net5.0/ref/comco.wookie.bookstore.api.dll
 /home/ibrahim/Projects/Comco.Wookie.Bookstore.API/comco.wookie.bookstore.api/bin/Debug/net5.0/comco.wookie.bookstore.api.pdb
+/home/ibrahim/Projects/Comco.Wookie.Bookstore.API/comco.wookie.bookstore.api/bin/Debug/net5.0/MediatR.dll
+/home/ibrahim/Projects/Comco.Wookie.Bookstore.API/comco.wookie.bookstore.api/bin/Debug/net5.0/MediatR.Extensions.Microsoft.DependencyInjection.dll
 /home/ibrahim/Projects/Comco.Wookie.Bookstore.API/comco.wookie.bookstore.api/bin/Debug/net5.0/Microsoft.OpenApi.dll
 /home/ibrahim/Projects/Comco.Wookie.Bookstore.API/comco.wookie.bookstore.api/bin/Debug/net5.0/Swashbuckle.AspNetCore.Swagger.dll
 /home/ibrahim/Projects/Comco.Wookie.Bookstore.API/comco.wookie.bookstore.api/bin/Debug/net5.0/Swashbuckle.AspNetCore.SwaggerGen.dll
@@ -27,5 +29,6 @@
 /home/ibrahim/Projects/Comco.Wookie.Bookstore.API/comco.wookie.bookstore.api/obj/Debug/net5.0/ref/comco.wookie.bookstore.api.dll
 /home/ibrahim/Projects/Comco.Wookie.Bookstore.API/comco.wookie.bookstore.api/obj/Debug/net5.0/comco.wookie.bookstore.api.pdb
 /home/ibrahim/Projects/Comco.Wookie.Bookstore.API/comco.wookie.bookstore.api/obj/Debug/net5.0/comco.wookie.bookstore.api.genruntimeconfig.cache
-/home/ibrahim/Projects/Comco.Wookie.Bookstore.API/comco.wookie.bookstore.api/bin/Debug/net5.0/MediatR.dll
-/home/ibrahim/Projects/Comco.Wookie.Bookstore.API/comco.wookie.bookstore.api/bin/Debug/net5.0/MediatR.Extensions.Microsoft.DependencyInjection.dll
+/home/ibrahim/Projects/Comco.Wookie.Bookstore.API/comco.wookie.bookstore.api/bin/Debug/net5.0/AutoMapper.dll
+/home/ibrahim/Projects/Comco.Wookie.Bookstore.API/comco.wookie.bookstore.api/bin/Debug/net5.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+/home/ibrahim/Projects/Comco.Wookie.Bookstore.API/comco.wookie.bookstore.api/bin/Debug/net5.0/Models/SampleData.json
